@@ -1,0 +1,69 @@
+body	   {
+			background-color:grey;
+	
+}
+
+#container {box-sizing: border-box;
+			position : absolute;
+			width:100%;
+			height:100%;
+			top:0;
+			left:0;
+}
+
+h2			{
+			 position:absolute;
+			 top:0%;
+			 left:63%;
+			 margin:1%;
+			 color:#FCB900;
+			 font-family:"AR DESTINE";
+			 font-size:50px;
+}
+
+td			{border:1px solid #FFF;
+			 background-color:#ECF93A;
+			 width:100px;
+			 height:100px;
+			 color:#ECF93A;
+			 font-size:75px;
+			 text-align:center;
+			 cursor:pointer;
+			 
+			}
+			
+table		{margin-left:5%;
+			 margin-top:5%;
+			 
+}			
+
+.color		{
+			 background-color:#989690;
+}
+
+#hide		{
+			 position:fixed;
+			 top:95%;
+			 left:90%;
+			}
+			
+#reveal		{position:fixed;
+			 top:95%;
+			 left:82%;
+			}
+
+.buttons 	{font-size:12px;
+			 font-family:"Berlin Sans FB Demi";
+			 font-weight:bold;
+			 padding:5px;
+			 border-radius:5px;
+}
+
+#cheat_box	{
+			 position:fixed;
+			 top:95%;
+			 left:60%;
+}
+
+input[type="text"] {height:20px;
+					padding-left:10px;		
