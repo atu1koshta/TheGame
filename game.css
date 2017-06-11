@@ -11,7 +11,7 @@ body	   {
 			left:0;
 }
 
-h2			{
+h2			{text-shadow:3px 3px 5px #10FF4F;
 			 position:absolute;
 			 top:0%;
 			 left:63%;
@@ -75,8 +75,8 @@ input[type="text"] {height:20px;
 
 @media only screen and (max-width:800px){
 	h2		{position:absolute;
-			 left:30%;
-			 top:0;
+			 left:38%;
+			 top:2%;
 			 font-weight:bold;
 			 margin:1%;
 			 color:#E2E2E2;
@@ -84,8 +84,9 @@ input[type="text"] {height:20px;
 			 font-size:20px;
 }
 
-	table	{margin-left:5%;
-			 margin-top:25%;
+	table	{position:absolute;
+	         left:25%;
+			 top:40%;
 			 
 }
 
