@@ -73,7 +73,7 @@ input[type="text"] {height:20px;
 
 
 
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:800px){
 	h2		{position:absolute;
 			 left:30%;
 			 top:0;
@@ -84,7 +84,7 @@ input[type="text"] {height:20px;
 			 font-size:20px;
 }
 
-	table	{margin-left:10%;
+	table	{margin-left:0;
 			 
 			 margin-top:25%;
 			 
@@ -104,7 +104,7 @@ input[type="text"] {height:20px;
 	#cheat_box	{
 				position:absolute;
 				top:120%;
-				left:0%;		
+				left:1%;		
 }
 	td		{border:1px solid #FFF;
 			 background-color:#ECF93A;
