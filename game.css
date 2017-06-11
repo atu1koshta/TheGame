@@ -1,5 +1,5 @@
 body	   {
-			background-color:grey;
+			background-color:#351717;
 	
 }
 
@@ -16,7 +16,7 @@ h2			{
 			 top:0%;
 			 left:63%;
 			 margin:1%;
-			 color:#FCB900;
+			 color:#E2E2E2;
 			 font-family:"AR DESTINE";
 			 font-size:50px;
 }
@@ -66,4 +66,42 @@ table		{margin-left:5%;
 }
 
 input[type="text"] {height:20px;
-					padding-left:10px;		
+					padding-left:10px;	
+}
+
+
+
+
+
+@media only screen and (max-width:1200px){
+	h2		{position:absolute;
+			 left:30%;
+			 top:0;
+			
+			 margin:1%;
+			 color:#E2E2E2;
+			 font-family:"AR DESTINE";
+			 font-size:50px;
+}
+
+	table	{margin-left:20%;
+			 margin-top:10%;
+			 
+}
+
+	#hide	{
+			 position:absolute;
+			 top:120%;
+			 left:90%;
+			}
+			
+	#reveal	{position:absolute;
+			 top:120%;
+			 left:82%;
+			}
+
+	#cheat_box	{
+				position:absolute;
+				top:120%;
+				left:60%;		
+}			
