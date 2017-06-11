@@ -77,11 +77,11 @@ input[type="text"] {height:20px;
 	h2		{position:absolute;
 			 left:30%;
 			 top:0;
-			
+			 font-weight:bold;
 			 margin:1%;
 			 color:#E2E2E2;
-			 font-family:"AR DESTINE";
-			 font-size:50px;
+			 font-family:"Arial";
+			 font-size:20px;
 }
 
 	table	{margin-left:20%;
@@ -115,5 +115,6 @@ input[type="text"] {height:20px;
 			 cursor:pointer;
 			 
 			}
+	
 
 }			
