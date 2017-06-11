@@ -84,8 +84,7 @@ input[type="text"] {height:20px;
 			 font-size:20px;
 }
 
-	table	{margin-left:0;
-			 
+	table	{margin-left:0%;
 			 margin-top:25%;
 			 
 }
@@ -104,7 +103,7 @@ input[type="text"] {height:20px;
 	#cheat_box	{
 				position:absolute;
 				top:120%;
-				left:1%;		
+				left:5%;		
 }
 	td		{border:1px solid #FFF;
 			 background-color:#ECF93A;
