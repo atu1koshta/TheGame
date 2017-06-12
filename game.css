@@ -75,7 +75,7 @@ input[type="text"] {height:20px;
 
 @media only screen and (max-width:800px){
 	h2		{position:absolute;
-			 left:35%;
+			 left:25%;
 			 top:2%;
 			 font-weight:bold;
 			 margin:1%;
