@@ -52,7 +52,7 @@
 				
 			<td id="2" class="card">
 			<span class="back">
-				
+				<p></p>
 			</span>
 			<span class="front">
 				
@@ -61,7 +61,7 @@
 			
 			<td id="3" class="card">
 			<span class="back">
-				
+				<p></p>
 			</span>
 			<span class="front">
 				
@@ -70,7 +70,7 @@
 			
 			<td id="4" class="card">
 			<span class="back">
-				
+				<p></p>
 			</span>
 			<span class="front">
 				
@@ -79,7 +79,7 @@
 			
 			<td id="5" class="card">
 			<span class="back">
-			
+				<p></p>
 			</span>
 			<span class="front">
 				
@@ -91,7 +91,7 @@
 			<tr>
 				<td id="6" class="card">
 					<span class="back">
-					
+						<p></p>
 					</span>
 					<span class="front">
 				
@@ -100,7 +100,7 @@
 				
 				<td id="7" class="card">
 					<span class="back">
-				
+						<p></p>
 					</span>
 					<span class="front">
 				
@@ -109,7 +109,7 @@
 				
 				<td id="8" class="card">
 					<span class="back">
-					
+						<p></p>
 					</span>
 					<span class="front">
 				
@@ -118,7 +118,7 @@
 				
 				<td id="9" class="card">
 					<span class="back">
-					
+						<p></p>
 					</span>
 					<span class="front">
 				
@@ -127,7 +127,7 @@
 				
 				<td id="10" class="card">
 					<span class="back">
-						
+						<p></p>
 					</span>
 					<span class="front">
 				
@@ -138,7 +138,7 @@
 			<tr>
 				<td id="11" class="card">
 					<span class="back">
-						
+						<p></p>
 					</span>
 					<span class="front">
 				
@@ -147,7 +147,7 @@
 				
 				<td id="12" class="card">
 					<span class="back">
-			
+						<p></p>
 					</span>
 					<span class="front">
 				
@@ -156,7 +156,7 @@
 				
 				<td id="13" class="card">
 					<span class="back">
-					
+						<p></p>
 					</span>
 					<span class="front">
 				
@@ -165,7 +165,7 @@
 				
 				<td id="14" class="card">
 					<span class="back">
-						
+						<p></p>
 					</span>
 					<span class="front">
 				
@@ -174,7 +174,7 @@
 				
 				<td id="15" class="card">
 					<span class="back">
-					
+						<p></p>
 					</span>
 					<span class="front">
 				
@@ -185,7 +185,7 @@
 			<tr>
 				<td id="16" class="card">
 					<span class="back">
-					
+						<p></p>
 					</span>
 					<span class="front">
 				
@@ -194,7 +194,7 @@
 				
 				<td id="17" class="card">
 					<span class="back">
-						
+						<p></p>
 					</span>
 					<span class="front">
 				
@@ -203,7 +203,7 @@
 				
 				<td id="18" class="card">
 					<span class="back">
-					
+						<p></p>
 					</span>
 					<span class="front">
 				
@@ -212,7 +212,7 @@
 				
 				<td id="19" class="card">
 					<span class="back">
-						
+						<p></p>
 					</span>
 					<span class="front">
 				
