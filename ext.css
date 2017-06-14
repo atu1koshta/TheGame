@@ -102,7 +102,7 @@ table			{
 
 .back{
   transform:rotateY(180deg);
-  background-image:url(question-mark.png);
+  
 }
 
 .card.flipped{
