@@ -1,0 +1,110 @@
+*				{box-sizing:border-box;}
+
+body			{
+				background-image:url(AHUZkUm.jpg);
+				background-size:cover;
+				
+				}
+				
+h2			{
+			text-shadow:3px 3px 5px #10FF4F;
+			 margin:1%;
+			 text-align:center;
+			 color:#F703F7;
+			 font-family:"AR DARLING";
+			 font-size:40px;
+			 font-weight:900;
+			 background-color:rgba(208,132,208,0.3);
+			 padding:0.5%;
+			 margin-top:0;
+}				
+
+#instructions	{position:absolute;
+				 top:20%;
+				 left:12%;
+	             display:block;
+				 width:75%;
+				 height:75%;
+				 background-color:rgba(188,188,188,0.8);
+				 text-align:center;
+				 z-index:2;
+				 border:2px solid grey;
+				 border-radius:20px;
+				 
+}
+
+h3				{opacity:1;
+				 font-family:"AR DELANEY";
+}		
+
+ul				{
+				 list-style:none;
+				 text-align:left;
+				 font-family:"Gabriola";
+				 font-size:25px;
+}
+
+#play			{
+				 position:absolute;
+				 top:90%;
+				 left:90%;
+}
+
+#Instructions	{position:fixed;
+				 left:92%;
+				 top:96%;
+}
+
+a 				{text-decoration:none;
+				 color:red;
+}
+
+
+
+table			{
+				position:absolute;
+				top:13%;
+				left:2%;
+}
+
+
+
+/*flip---------------------------------------------------------------------------------*/
+
+
+.card{
+  
+				position:relative;
+				transform-style: preserve-3d;
+				transition:all 500ms ease;
+				border:1px solid grey;
+				border-radius:10px;
+				width:175px;
+				height:100px;
+				color:#373737;
+				background-color:rgba(189,189,196,0.5);
+				text-align:center;
+				font-size:75px;
+				font-family:"Algerian";
+}
+
+.front, .back{
+  position:relative;
+  font-size:75px;
+  backface-visibility:hidden;
+  color: #033246;
+  display:flex;
+  text-align:center;
+  justify-content:center;
+  font-size:75px;
+  font-family: "Algerian";
+}
+
+.back{
+  transform:rotateY(180deg);
+  
+}
+
+.card.flipped{
+  transform: rotateY(180deg);
+}
