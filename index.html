@@ -6,31 +6,68 @@
 	<title>THE GAME...</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="icon" href="shamrock-512.png" type="image/png"> 
-	<link rel="stylesheet" type="text/css" href="game.css"/>
+	
+	<link rel="stylesheet" type="text/css" href="ext.css"/>
 	<script src="jquery-3.2.1.min.js"></script>
 	<script src="jquery.animate-colors-min.js"></script>
-	<script src="game.js"></script>
-	<script src="game2.js"></script>
+	<script src="Gruntfile.js"></script>
+	<script src="jquery.flip.min.js"></script>
+	<script src="ext2.js"></script>
 </head>
 
 <body>
-
-	<div id = "container">
 	
-		<h2>GAME OF LUCK!!!</h2>
-		<input type="text" id="cheat_box" size="10" maxlength="7" placeholder="I CHEAT"/>
+	<div id = "container">
+	<h2>ANAMESIS</h2>
 		
-		<button id="hide" class="buttons" disabled>HIDE ALL</button>
+		<div id ="instructions">
+			<h3>HOW TO PLAY !!</h3>
+			<ul>
+				<li>There are <b>12 pairs</b> of different letter and <b>1 distinct letter</b> which is odd among all.</li>
+				<li>At max , <b>2 cards</b> can be <b>REVEALED</b> , which counts <b>1 TURN</b> .</li>
+				<li>If revealed cards forms a <b> PAIR</b>  , it's a <b> SUCCESS</b>  , awarding <b> 5 points </b> for each success.</li>
+				<li>For each <b> UNSUCCESSFUL</b>  turn , <b> 1 mark</b>  will be deducted.</li>
+				<li>If they don't , both cards will be hidden again.</li>
+				<li><b>BONUS : </b> Identifing that distinct letter will award a bonus points which will be <b> (50 - turns)</b>  at that moment.</li>
+			</ul>
+			<button id = "play">PLAY</button>
+		</div>
 		
-		<button id="reveal" class="buttons" disabled>REVEAL ALL</button>
-		
-		<table cellspacing = "5px;">
+		<table  cellspacing = "5px;">
+			
+			<tr>
+				<td id="1"></td>
+				<td id="2"></td>
+				<td id="3"></td>
+				<td id="4"></td>
+				<td id="5"></td>
+				
+				
+			</tr>
+			<tr>
+				<td id="6"></td>
+				<td id="7"></td>
+				<td id="8"></td>
+				<td id="9"></td>
+				<td id="10"></td>
+				
+				
+			</tr>
 			<tr>
 				<td id="11"></td>
 				<td id="12"></td>
 				<td id="13"></td>
 				<td id="14"></td>
 				<td id="15"></td>
+				
+				
+			</tr>
+			<tr>
+				<td id="16"></td>
+				<td id="17"></td>
+				<td id="18"></td>
+				<td id="19"></td>
+				<td id="20"></td>
 				
 				
 			</tr>
@@ -43,40 +80,13 @@
 				
 				
 			</tr>
-			<tr>
-				<td id="31"></td>
-				<td id="32"></td>
-				<td id="33"></td>
-				<td id="34"></td>
-				<td id="35"></td>
-				
-				
-			</tr>
-			<tr>
-				<td id="41"></td>
-				<td id="42"></td>
-				<td id="43"></td>
-				<td id="44"></td>
-				<td id="45"></td>
-				
-				
-			</tr>
-			<tr>
-				<td id="51"></td>
-				<td id="52"></td>
-				<td id="53"></td>
-				<td id="54"></td>
-				<td id="55"></td>
-				
-				
-			</tr>
+		
 		</table>
 		
-		
-	</div>
+		<div id = "Instructions"><a href = "#">Instructions</a></div>
+	
 
-	
-	
 </body>
+
 
 </html>
