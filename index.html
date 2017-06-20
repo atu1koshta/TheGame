@@ -3,18 +3,15 @@
 <html>
 
 <head>
+	<p id = "demo"></p>
 	<title>THE GAME...</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="icon" href="shamrock-512.png" type="image/png"> 
 	
 	<link rel="stylesheet" type="text/css" href="ext.css"/>
 	<script src="jquery-3.2.1.min.js"></script>
-	<script src="jquery.animate-colors-min.js"></script>
-	<script src="Gruntfile.js"></script>
-	<script src="jquery.flip.min.js"></script>
-	<script src="jquery.timer.js"></script>
 	<script src="ext2.js"></script>
-	<script src="flip.js"></script>
+	
 </head>
 
 <body>
@@ -25,12 +22,12 @@
 		<div id ="instructions">
 			<h3>HOW TO PLAY !!</h3>
 			<ul>
-				<li>There are <b>12 pairs</b> of different letter and <b>1 distinct letter</b> which is odd among all.</li>
+				<li>There are <b>12 pairs</b> of different letter and <b>1 CARD</b> blank.</li>
 				<li>At max , <b>2 cards</b> can be <b>REVEALED</b> , which counts <b>1 TURN</b> .</li>
 				<li>If revealed cards forms a <b> PAIR</b>  , it's a <b> SUCCESS</b>  , awarding <b> 5 points </b> for each success.</li>
 				<li>For each <b> UNSUCCESSFUL</b>  turn , <b> 1 mark</b>  will be deducted.</li>
 				<li>If they don't , both cards will be hidden again.</li>
-				<li><b>BONUS : </b> Identifing that distinct letter will award a bonus points which will be <b> (50 - turns)</b>  at that moment.</li>
+				<li>Maximum achieveable score is <b>60</b>,but I <b>BET</b> u can't score that,just because distributon is <b>COMPLETELY RANDOM</b>.....try yourself</li>
 			</ul>
 			<button id = "play">PLAY</button>
 		</div>
@@ -41,8 +38,8 @@
 			
 			<tr>
 			
-			<td  class="card">
-			<span id="1" class="back">
+			<td id="1" class="card">
+			<span  class="back">
 				
 			</span>
 			<span class="front">
@@ -52,7 +49,7 @@
 				
 			<td id="2" class="card">
 			<span class="back">
-				<p></p>
+				
 			</span>
 			<span class="front">
 				
@@ -61,7 +58,7 @@
 			
 			<td id="3" class="card">
 			<span class="back">
-				<p></p>
+				
 			</span>
 			<span class="front">
 				
@@ -70,28 +67,28 @@
 			
 			<td id="4" class="card">
 			<span class="back">
-				<p></p>
+				
 			</span>
 			<span class="front">
 				
 			</span>
 			</td>
 			
-			<td id="5" class="card">
-			<span class="back">
-				<p></p>
-			</span>
-			<span class="front">
+				<td id="5" class="card">
+					<span class="back">
 				
-			</span>
-			</td>
+					</span>
+					<span class="front">
+				
+					</span>
+				</td>
 				
 				
 			</tr>
 			<tr>
 				<td id="6" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -100,7 +97,7 @@
 				
 				<td id="7" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -109,7 +106,7 @@
 				
 				<td id="8" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -118,7 +115,7 @@
 				
 				<td id="9" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -127,7 +124,7 @@
 				
 				<td id="10" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -138,7 +135,7 @@
 			<tr>
 				<td id="11" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -147,7 +144,7 @@
 				
 				<td id="12" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -156,7 +153,7 @@
 				
 				<td id="13" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -165,7 +162,7 @@
 				
 				<td id="14" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -174,7 +171,7 @@
 				
 				<td id="15" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -185,7 +182,7 @@
 			<tr>
 				<td id="16" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -194,7 +191,7 @@
 				
 				<td id="17" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -203,7 +200,7 @@
 				
 				<td id="18" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -212,7 +209,7 @@
 				
 				<td id="19" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -221,7 +218,7 @@
 				
 				<td id="20" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -233,7 +230,7 @@
 			<tr>
 				<td id="21" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -242,7 +239,7 @@
 				
 				<td id="22" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -251,7 +248,7 @@
 				
 				<td id="23" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -260,7 +257,7 @@
 				
 				<td id="24" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 				
@@ -269,7 +266,7 @@
 				
 				<td id="25" class="card">
 					<span class="back">
-						<p></p>
+						
 					</span>
 					<span class="front">
 					
@@ -281,9 +278,26 @@
 		
 		</table>
 		
+		
 		<div id = "Instructions"><a href = "#">Instructions</a></div>
 	
-
+		<div id = "turn">Turns : <span class="count"></span></div>
+		
+		<div id = "score">Score : <span class="score"></span></div>
+		
+		<div id="finalScore"></div>
+		
+		<div id="totalTurns"></div>
+		
+		<div id = "Win">
+			You Won!!
+			<div id = "performance">
+			</div>
+		</div>
+		
+		
+		
+		
 </body>
 
 
